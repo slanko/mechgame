@@ -71,7 +71,8 @@ public class InitialInputListener : MonoBehaviour
         {
             inputs.y = 1;
         }
-
+        _playerScript.torsoTwistY = inputs.x;
+        _playerScript.torsoTwistX = inputs.y;
 
         camInputs = inputs;
     }

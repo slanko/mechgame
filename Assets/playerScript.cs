@@ -5,15 +5,14 @@ using UnityEngine.UI;
 
 public class playerScript : MonoBehaviour
 {
-    public float LThrottle, RThrottle;
+    public float LThrottle, RThrottle, torsoTwistY, torsoTwistX;
     public bool Brakes = false;
     [SerializeField] float leftThrottle, rightThrottle, leftClampMax, rightClampMax, leftClampMin, rightClampMin, throttleSensitivity, turnSpeedModifier, moveSpeedModifier, brakeSensitivity;
     [SerializeField] Slider leftSlider, rightSlider;
-    [SerializeField] Transform upperTorso;
+    [SerializeField] Transform torsoRotatorY, torsoRotatorX;
     float leftBrakeLerpAmount, rightBrakeLerpAmount;
 
-
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         //THROTTLES
 
@@ -27,7 +26,10 @@ public class playerScript : MonoBehaviour
 
         leftSlider.value = leftThrottle;
         rightSlider.value = rightThrottle;
+    }
 
+    void Update()
+    {
         transform.Rotate(0, (leftThrottle - rightThrottle) * Time.deltaTime * turnSpeedModifier , 0);
         transform.Translate(0, 0, (leftThrottle + rightThrottle) * Time.deltaTime * moveSpeedModifier);
 
@@ -36,5 +38,8 @@ public class playerScript : MonoBehaviour
             leftThrottle = Mathf.Lerp(leftThrottle, 0, Time.deltaTime * brakeSensitivity);
             rightThrottle = Mathf.Lerp(rightThrottle, 0, Time.deltaTime * brakeSensitivity);
         }
+
+        torsoRotatorY.Rotate(0, torsoTwistY, 0);
+        torsoRotatorX.Rotate(-torsoTwistX, 0, 0);
     }
 }
