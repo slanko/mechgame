@@ -287,6 +287,196 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &102347776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102347780}
+  - component: {fileID: 102347779}
+  - component: {fileID: 102347778}
+  - component: {fileID: 102347777}
+  m_Layer: 0
+  m_Name: Cube (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &102347777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102347776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &102347778
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102347776}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &102347779
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102347776}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &102347780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102347776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -39.4, y: 11.6, z: 127}
+  m_LocalScale: {x: 11.05173, y: 28.1, z: 28.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &260891113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260891117}
+  - component: {fileID: 260891116}
+  - component: {fileID: 260891115}
+  - component: {fileID: 260891114}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &260891114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260891113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &260891115
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260891113}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &260891116
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260891113}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &260891117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260891113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.1, y: 11.6, z: 55.75}
+  m_LocalScale: {x: 11.05173, y: 28.1, z: 28.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321172558
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321172559}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torso Rotator Y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +520,7 @@ GameObject:
   - component: {fileID: 358600179}
   - component: {fileID: 358600178}
   - component: {fileID: 358600177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +789,7 @@ GameObject:
   - component: {fileID: 482173872}
   - component: {fileID: 482173874}
   - component: {fileID: 482173873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -947,6 +1137,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &731488239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 731488243}
+  - component: {fileID: 731488242}
+  - component: {fileID: 731488241}
+  - component: {fileID: 731488240}
+  m_Layer: 0
+  m_Name: Cube (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &731488240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731488239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &731488241
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731488239}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &731488242
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731488239}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &731488243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731488239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.1, y: 11.6, z: 127}
+  m_LocalScale: {x: 11.05173, y: 28.1, z: 28.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831214879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 862295060}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Upper Torso Lerp To
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 899775422}
   - component: {fileID: 899775423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Upper Torso Lerp Buddy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1467,7 @@ GameObject:
   - component: {fileID: 1046616063}
   - component: {fileID: 1046616062}
   - component: {fileID: 1046616061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1388,7 +1673,7 @@ GameObject:
   - component: {fileID: 1184231590}
   - component: {fileID: 1184231589}
   - component: {fileID: 1184231588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player Upper Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,6 +1809,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1423451379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423451383}
+  - component: {fileID: 1423451382}
+  - component: {fileID: 1423451381}
+  - component: {fileID: 1423451380}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1423451380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423451379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1423451381
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423451379}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1423451382
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423451379}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1423451383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423451379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -39.4, y: 11.6, z: 55.75}
+  m_LocalScale: {x: 11.05173, y: 28.1, z: 28.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1463964819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1463964820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upperModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,6 +1943,101 @@ Transform:
   m_Father: {fileID: 1184231587}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1527606029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527606033}
+  - component: {fileID: 1527606032}
+  - component: {fileID: 1527606031}
+  - component: {fileID: 1527606030}
+  m_Layer: 0
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1527606030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527606029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1527606031
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527606029}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1527606032
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527606029}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1527606033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527606029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6500015, y: 11.6, z: 90.75}
+  m_LocalScale: {x: 11.05173, y: 28.1, z: 28.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615431413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,7 +2053,8 @@ GameObject:
   - component: {fileID: 1615431419}
   - component: {fileID: 1615431418}
   - component: {fileID: 1615431420}
-  m_Layer: 0
+  - component: {fileID: 1615431421}
+  m_Layer: 9
   m_Name: Player Lower Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1808,6 +2284,22 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!54 &1615431421
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615431413}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1643032478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1970,7 +2462,7 @@ GameObject:
   - component: {fileID: 1772050600}
   - component: {fileID: 1772050599}
   - component: {fileID: 1772050598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2314,7 +2806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1898202404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torso Rotator X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2441,7 +2933,7 @@ GameObject:
   - component: {fileID: 2003044789}
   - component: {fileID: 2003044788}
   - component: {fileID: 2003044787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2535,7 +3027,7 @@ GameObject:
   - component: {fileID: 4690128183041906466}
   - component: {fileID: 1037970800763758674}
   - component: {fileID: 3927986103823881417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube40_polySurface3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2817,7 +3309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652838455786}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: placeholderMechModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2843,7 +3335,7 @@ GameObject:
   - component: {fileID: 4204566015603973984}
   - component: {fileID: 2086892895399984999}
   - component: {fileID: 8152623557751237504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface36_polySurface38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2998,7 +3490,7 @@ GameObject:
   - component: {fileID: 4109004731318613896}
   - component: {fileID: 2448640160030482924}
   - component: {fileID: 1154837650965928717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube40_polySurface27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3140,7 +3632,7 @@ GameObject:
   - component: {fileID: 1933594916736669716}
   - component: {fileID: 342822005783711111}
   - component: {fileID: 7218117666269751662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3409,7 +3901,7 @@ GameObject:
   - component: {fileID: 4357717881455719083}
   - component: {fileID: 2532029425501768550}
   - component: {fileID: 6267899255102751326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube40_polySurface28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3482,7 +3974,7 @@ GameObject:
   - component: {fileID: 3728527396005407935}
   - component: {fileID: 8573137593660083206}
   - component: {fileID: 8042745762475777361}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3508,7 +4000,7 @@ GameObject:
   - component: {fileID: 719777881785071287}
   - component: {fileID: 2713410608034777138}
   - component: {fileID: 9160325013941013484}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3526,7 +4018,7 @@ GameObject:
   - component: {fileID: 3001734946682968030}
   - component: {fileID: 6353326739590153618}
   - component: {fileID: 584855923444841124}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3585,7 +4077,7 @@ GameObject:
   - component: {fileID: 1175568219505194585}
   - component: {fileID: 2561785492713083355}
   - component: {fileID: 5329735412900705749}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface54_pCylinder28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3672,7 +4164,7 @@ GameObject:
   - component: {fileID: 2382562505403688745}
   - component: {fileID: 7110763115364257077}
   - component: {fileID: 8909100850117078071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3745,7 +4237,7 @@ GameObject:
   - component: {fileID: 5289303512445732590}
   - component: {fileID: 6766734265936298166}
   - component: {fileID: 1745483108089741265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube40_polySurface13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3763,7 +4255,7 @@ GameObject:
   - component: {fileID: 4403472042412415057}
   - component: {fileID: 5519649905492687860}
   - component: {fileID: 8373568400759856974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: polySurface52_polySurface47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3781,7 +4273,7 @@ GameObject:
   - component: {fileID: 9187760037424557643}
   - component: {fileID: 7225734186688696507}
   - component: {fileID: 1570974539386920166}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube40_polySurface42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +4327,7 @@ GameObject:
   - component: {fileID: 6539714623656149039}
   - component: {fileID: 8397066438296702018}
   - component: {fileID: 2430168169617110686}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface36_polySurface40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3972,7 +4464,7 @@ GameObject:
   - component: {fileID: 3964639814872074236}
   - component: {fileID: 2125867607831580457}
   - component: {fileID: 692447249692210242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3998,7 +4490,7 @@ GameObject:
   - component: {fileID: 1351478100202467613}
   - component: {fileID: 6371601430208388594}
   - component: {fileID: 6709030489767303879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4016,7 +4508,7 @@ GameObject:
   - component: {fileID: 2763312731630669998}
   - component: {fileID: 3106621779509969401}
   - component: {fileID: 2141880734895832681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface35_pCube40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4097,7 +4589,7 @@ GameObject:
   - component: {fileID: 3839542157118051554}
   - component: {fileID: 809377667356967933}
   - component: {fileID: 7840474127038477337}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube40_polySurface6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4156,7 +4648,7 @@ GameObject:
   - component: {fileID: 1778030604179718040}
   - component: {fileID: 898111691519456588}
   - component: {fileID: 838062660189724239}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface44_polySurface36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4190,7 +4682,7 @@ GameObject:
   - component: {fileID: 1639120916301222595}
   - component: {fileID: 8896285282381269260}
   - component: {fileID: 3724046576557505407}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface36_polySurface39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4208,7 +4700,7 @@ GameObject:
   - component: {fileID: 6875735544096137934}
   - component: {fileID: 2781587289515577537}
   - component: {fileID: 1660171333263274215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface36_polySurface41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4283,7 +4775,7 @@ GameObject:
   - component: {fileID: 1619089854623293911}
   - component: {fileID: 9095165160387183582}
   - component: {fileID: 4392823417922442211}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4559,7 +5051,7 @@ GameObject:
   - component: {fileID: 9154234548128497772}
   - component: {fileID: 8538613379441819371}
   - component: {fileID: 1065883494268037617}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube40_polySurface2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4577,7 +5069,7 @@ GameObject:
   - component: {fileID: 6799527591656828992}
   - component: {fileID: 8737820004346412929}
   - component: {fileID: 3059632146150285277}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube40_polySurface34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4691,7 +5183,7 @@ GameObject:
   - component: {fileID: 870840495594569626}
   - component: {fileID: 2037017640074989041}
   - component: {fileID: 3575641880980166102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4750,7 +5242,7 @@ GameObject:
   - component: {fileID: 4339229462089824312}
   - component: {fileID: 2191137525570173436}
   - component: {fileID: 6735095927333478321}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder28_polySurface53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4809,7 +5301,7 @@ GameObject:
   - component: {fileID: 7612256775766258677}
   - component: {fileID: 4245247047467681754}
   - component: {fileID: 5384636766537265854}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4876,7 +5368,7 @@ GameObject:
   - component: {fileID: 7730637733095889197}
   - component: {fileID: 5297571145416409044}
   - component: {fileID: 6806277426571356508}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4910,7 +5402,7 @@ GameObject:
   - component: {fileID: 4319454118602828087}
   - component: {fileID: 4859706623125047393}
   - component: {fileID: 8001958423564037034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube40_polySurface43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4936,7 +5428,7 @@ GameObject:
   - component: {fileID: 842546786780869568}
   - component: {fileID: 5549780879074895262}
   - component: {fileID: 1132067201282128607}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube40_polySurface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5003,7 +5495,7 @@ GameObject:
   - component: {fileID: 7502767479385786413}
   - component: {fileID: 4577370388890249780}
   - component: {fileID: 671153313425067667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: polySurface36_polySurface37
   m_TagString: Untagged
   m_Icon: {fileID: 0}

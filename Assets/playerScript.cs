@@ -10,7 +10,12 @@ public class playerScript : MonoBehaviour
     [SerializeField] float leftThrottle, rightThrottle, leftClampMax, rightClampMax, leftClampMin, rightClampMin, throttleSensitivity, turnSpeedModifier, moveSpeedModifier, brakeSensitivity;
     [SerializeField] Slider leftSlider, rightSlider;
     [SerializeField] Transform torsoRotatorY, torsoRotatorX;
-    float leftBrakeLerpAmount, rightBrakeLerpAmount;
+    Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void FixedUpdate()
     {
@@ -26,13 +31,14 @@ public class playerScript : MonoBehaviour
 
         leftSlider.value = leftThrottle;
         rightSlider.value = rightThrottle;
+
+        Vector3 forwardVector = new Vector3(transform.forward.x, transform.forward.y, transform.forward.z) * (leftThrottle + rightThrottle) * Time.deltaTime * moveSpeedModifier;
+        rb.AddForce(forwardVector, ForceMode.VelocityChange);
     }
 
     void Update()
     {
         transform.Rotate(0, (leftThrottle - rightThrottle) * Time.deltaTime * turnSpeedModifier , 0);
-        transform.Translate(0, 0, (leftThrottle + rightThrottle) * Time.deltaTime * moveSpeedModifier);
-
         if (Brakes)
         {
             leftThrottle = Mathf.Lerp(leftThrottle, 0, Time.deltaTime * brakeSensitivity);
