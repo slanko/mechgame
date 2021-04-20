@@ -8,47 +8,24 @@ public class InitialInputListener : MonoBehaviour
 {
     bool primed = true;
     int inputDevicesBound = 0;
+    Mouse alphaInput;
+    Mouse betaInput;
 
     public playerScript _playerScript;
 
     [SerializeField] float LeftThrottle, RightThrottle;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Vector2 camInputs;
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
-    //This is what the input system gets (is plugged manually into a component on player)
-    //context is the state of the button|| .started = float != 0 || .cancelled = float < currentFloatValue
-    void OnMousePress(CallbackContext context)
+    private void Update()
     {
-        //primed required to stop multiple inputs firing
-        if (context.started && primed)
+        for(int i = 0; i < gameObject.GetComponent<PlayerInput>().devices.Count; i++)
         {
-            primed = false;
-
-            switch (inputDevicesBound)
-            {
-                case 0:
-                    //Bind my first mouse
-
-                    break;
-                case 1:
-                    //Bind my second mouse
-                    break;
-            }
-        }
-        if (context.canceled)
-        {
-            primed = true;
+            print(gameObject.GetComponent<PlayerInput>().devices[i]);
         }
     }
+
 
     public void RThrottle(CallbackContext context)
     {
@@ -73,5 +50,29 @@ public class InitialInputListener : MonoBehaviour
             primed = true;
             _playerScript.Brakes = false;
         }
+    }
+
+    public void CamControl(CallbackContext context)
+    {
+        var inputs = context.ReadValue<Vector2>();
+        if (inputs.x < 0)
+        {
+            inputs.x = -1;
+        }
+        else if (inputs.x > 0)
+        {
+            inputs.x = 1;
+        }
+        if (inputs.y < 0)
+        {
+            inputs.y = -1;
+        }
+        else if (inputs.y > 0)
+        {
+            inputs.y = 1;
+        }
+
+
+        camInputs = inputs;
     }
 }
