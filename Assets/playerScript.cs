@@ -5,15 +5,17 @@ using UnityEngine.UI;
 
 public class playerScript : MonoBehaviour
 {
-    [SerializeField] float leftThrottle, rightThrottle, leftClampMax, rightClampMax, leftClampMin, rightClampMin, throttleSensitivity, turnSpeedModifier, moveSpeedModifier;
+    public float LThrottle, RThrottle;
+    public bool Brakes = false;
+    [SerializeField] float leftThrottle, rightThrottle, leftClampMax, rightClampMax, leftClampMin, rightClampMin, throttleSensitivity, turnSpeedModifier, moveSpeedModifier, brakeSensitivity;
     [SerializeField] Slider leftSlider, rightSlider;
     [SerializeField] Transform upperTorso;
+    float leftBrakeLerpAmount, rightBrakeLerpAmount;
 
-    // Update is called once per frame
-    void Update()
+
+    void FixedUpdate()
     {
-        var RThrottle = Input.GetAxis("Right Throttle");
-        var LThrottle = Input.GetAxis("Left Throttle");
+        //THROTTLES
 
         if (LThrottle != 0) leftThrottle += LThrottle * Time.deltaTime * throttleSensitivity;
 
@@ -29,5 +31,10 @@ public class playerScript : MonoBehaviour
         transform.Rotate(0, (leftThrottle - rightThrottle) * Time.deltaTime * turnSpeedModifier , 0);
         transform.Translate(0, 0, (leftThrottle + rightThrottle) * Time.deltaTime * moveSpeedModifier);
 
+        if (Brakes)
+        {
+            leftThrottle = Mathf.Lerp(leftThrottle, 0, Time.deltaTime * brakeSensitivity);
+            rightThrottle = Mathf.Lerp(rightThrottle, 0, Time.deltaTime * brakeSensitivity);
+        }
     }
 }
